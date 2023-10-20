@@ -14,7 +14,7 @@ This project is a simple yet powerful implementation of a Least Recently Used (L
 
 ## Usage
 
-csharp
+`csharp
 var cache = new LRUCache<string, string>(3);
 cache.Add("1", "one");
 cache.Add("2", "two");
@@ -25,7 +25,7 @@ cache.Add("4", "four"); // This will remove "1" from the cache because it's the 
 Console.WriteLine(cache.Get("1")); // Outputs: null
 Console.WriteLine(cache.Get("3")); // Outputs: three
 Console.WriteLine(cache.Get("4")); // Outputs: four
-
+`
 
 
 ## Features
