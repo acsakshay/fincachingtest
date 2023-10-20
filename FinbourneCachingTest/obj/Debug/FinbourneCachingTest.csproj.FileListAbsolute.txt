@@ -1,0 +1,8 @@
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\obj\Debug\FinbourneCachingTest.csproj.AssemblyReference.cache
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\obj\Debug\FinbourneCachingTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\obj\Debug\FinbourneCachingTest.csproj.CoreCompileInputs.cache
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\bin\Debug\FinbourneCachingTest.exe.config
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\bin\Debug\FinbourneCachingTest.exe
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\bin\Debug\FinbourneCachingTest.pdb
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\obj\Debug\FinbourneCachingTest.exe
+C:\Users\acsak\source\repos\FinbourneCachingTest\FinbourneCachingTest\obj\Debug\FinbourneCachingTest.pdb
