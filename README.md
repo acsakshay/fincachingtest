@@ -1,3 +1,4 @@
+
 # LRU Cache Implementation in C#
 
 This project is a simple yet powerful implementation of a Least Recently Used (LRU) cache in C#. The cache is designed to be generic, meaning it can store any type of objects, and uses a unique key to add and retrieve items. 
@@ -14,18 +15,21 @@ This project is a simple yet powerful implementation of a Least Recently Used (L
 
 ## Usage
 
-`csharp
-var cache = new LRUCache<string, string>(3);
-cache.Add("1", "one");
-cache.Add("2", "two");
-cache.Add("3", "three");
-Console.WriteLine(cache.Get("1")); // Outputs: one
-Console.WriteLine(cache.Get("2")); // Outputs: two
-cache.Add("4", "four"); // This will remove "1" from the cache because it's the least recently used item
-Console.WriteLine(cache.Get("1")); // Outputs: null
-Console.WriteLine(cache.Get("3")); // Outputs: three
-Console.WriteLine(cache.Get("4")); // Outputs: four
-`
+
+
+    csharp
+    var cache = new LRUCache<string, string>(3);
+    cache.Add("1", "one");
+    cache.Add("2", "two");
+    cache.Add("3", "three");
+    Console.WriteLine(cache.Get("1")); // Outputs: one
+    Console.WriteLine(cache.Get("2")); // Outputs: two
+    cache.Add("4", "four"); // This will remove "1" from the cache because it's the least recently used item
+    Console.WriteLine(cache.Get("1")); // Outputs: null
+    Console.WriteLine(cache.Get("3")); // Outputs: three
+    Console.WriteLine(cache.Get("4")); // Outputs: four
+
+
 
 
 ## Features
